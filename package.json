@@ -1,0 +1,43 @@
+{
+  "name": "cryptalk",
+  "version": "1.1.21",
+  "description": "Encrypted HTML5/Node.JS instant chat",
+  "main": "server.js",
+  "subdomain": "cryptalk",
+  "analyze": true,
+  "preferGlobal": true,
+  "private": false,
+  "keywords": [
+    "cryptalk",
+    "fandango",
+    "crypto-js",
+    "AES",
+    "secure",
+    "html5",
+    "encryption",
+    "privacy"
+  ],
+  "author": "Hexagon <Hexagon@GitHub>",
+  "contributors": [
+    {
+      "name": "Pehr Boman",
+      "email": "unkelpehr@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Hexagon/cryptalk.git"
+  },
+  "bin": "./server.js",
+  "dependencies": {
+    "node-static": "*",
+    "socket.io": "^2.2.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "devDependencies": {}
+}
